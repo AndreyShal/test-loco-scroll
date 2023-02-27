@@ -1,0 +1,22 @@
+.horizontalSection {
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.horizontalContainer {
+  width: 3000px;
+  min-width: 3000px;
+  height: calc(var(--vh, 1vh) * 100);
+}
+.horizontalBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: palegoldenrod;
+}
